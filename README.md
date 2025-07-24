@@ -1,12 +1,30 @@
-# React + Vite
+# Start-Framework 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern web design project built using **React + Vite**.
 
-Currently, two official plugins are available:
+This project demonstrates clean component structure, organized file management, and responsive layouts using HTML, CSS, and JSX in a React environment. All assets (images, icons, styles) are stored in the `public/` folder and fully functional on GitHub Pages deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Technologies Used
 
-## Expanding the ESLint configuration
+- React (with Vite)
+- JSX
+- CSS
+- Bootstrap
+- GitHub Pages for deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+Start-Framework/
+├── public/
+│ └── images/ (All image assets used in the project)
+├── src/
+│ └── components/
+│ └── App.jsx
+│ └── main.jsx
+├── node_modules/
+├── package.json
+├── vite.config.js
+
+View the live deployed version here:  
+👉 [Start-Framework on GitHub Pages](https://omar-coder-dev.github.io/Start-Framework/)
+
