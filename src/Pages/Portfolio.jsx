@@ -4,14 +4,17 @@ import "./Portfolio.css";
 export default function Portfolio() {
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const items = [
-    { id: 1, img: "Images/log-cabin.png", bg: "bg-danger-subtle" },
-    { id: 2, img: "Images/cake.png", bg: "bg-info" },
-    { id: 3, img: "Images/tent.png", bg: "bg-dark text-white" },
-    { id: 4, img: "Images/log-cabin.png", bg: "bg-danger-subtle" },
-    { id: 5, img: "Images/cake.png", bg: "bg-info" },
-    { id: 6, img: "Images/tent.png", bg: "bg-dark text-white" },
-  ];
+  const baseUrl = import.meta.env.BASE_URL + "Images";
+
+const items = [
+  { id: 1, img: `${baseUrl}/log-cabin.png`, bg: "bg-danger-subtle" },
+  { id: 2, img: `${baseUrl}/cake.png`, bg: "bg-info" },
+  { id: 3, img: `${baseUrl}/tent.png`, bg: "bg-dark text-white" },
+  { id: 4, img: `${baseUrl}/log-cabin.png`, bg: "bg-danger-subtle" },
+  { id: 5, img: `${baseUrl}/cake.png`, bg: "bg-info" },
+  { id: 6, img: `${baseUrl}/tent.png`, bg: "bg-dark text-white" },
+];
+
   return (
     <div className="container text-center mt-5 my-5">
       <h1 className="text-uppercase fw-bold fs-1 mb-3">portfolio component</h1>
