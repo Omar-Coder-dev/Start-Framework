@@ -1,6 +1,6 @@
 {
   "name": "package.json",
-  "homepage": "https://Omar-Coder-dev.github.io/Start-Framework/",
+  "homepage": "https://github.com/Omar-Coder-dev/Start-Frameworks/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
