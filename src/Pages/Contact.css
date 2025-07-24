@@ -1,0 +1,12 @@
+.contact input,
+.contact textarea {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.divider .line {
+  height: 4px;
+  width: 70px;
+}

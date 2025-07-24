@@ -1,0 +1,16 @@
+.footer-top a {
+  color: white;
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-top{
+    background-color: rgb(44, 62, 80) !important;
+}
+.footer-top a:hover {
+  background-color: white;
+  color: black;
+}
